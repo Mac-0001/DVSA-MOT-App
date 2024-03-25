@@ -1,9 +1,14 @@
 <html>
     <head>
         <title>New MOT Test</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
+        <header class="header">
+            <div class="header image col-1"> 
+                <img src="./images/DVSA-Logo.jpg" alt="DVSA Logo">
+            </div>
+            <div class="header text col-1" >DVSA MOT Platform</div>
 
         </header>
         <nav>
@@ -18,10 +23,18 @@
         </nav>
         <section>
             <article>
-                <h1>XXXX</h1>
-            </article>
-            <article>
-                <h2>YYYY.</h2>
+                <form action="test">
+                    <input type="text" name="test1" placeholder="Registration Number">
+                    <input type="text" name="test2" placeholder="MOT Test Number">
+                    <input type="text" name="test3" placeholder="Make">
+                    <input type="text" name="test4" placeholder="Model">
+                    <input type="number" name="test5" placeholder="Year">
+                    <input type="radio" id="Petrol" name="FuelType" value="Petrol">
+                    <label for="Petrol">Petrol</label><br>
+                    <input type="radio" id="Diesel" name="FuelType" value="Disel">
+                    <label for="Diesel">Diesel</label><br>
+                    <input type="number" name="test5" placeholder="Mileage">
+                </form>
             </article>
         </section>
         <footer>
